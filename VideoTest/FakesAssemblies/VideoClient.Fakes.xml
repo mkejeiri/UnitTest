@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VideoClient.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:VideoClient.Fakes.ShimVideo">
+            <summary>Shim type of VideoClient.Video</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideo.#ctor(VideoClient.Video)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:VideoClient.Fakes.ShimVideo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AllInstances.AuthorGet">
+            <summary>Sets the shim of Video.get_Author()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AllInstances.AuthorSetString">
+            <summary>Sets the shim of Video.set_Author(String value)</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AllInstances.PublishDateGet">
+            <summary>Sets the shim of Video.get_PublishDate()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AllInstances.PublishDateSetString">
+            <summary>Sets the shim of Video.set_PublishDate(String value)</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AllInstances.TagsGet">
+            <summary>Sets the shim of Video.get_Tags()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AllInstances.TagsSetStringArray">
+            <summary>Sets the shim of Video.set_Tags(String[] value)</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AllInstances.TitleGet">
+            <summary>Sets the shim of Video.get_Title()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AllInstances.TitleSetString">
+            <summary>Sets the shim of Video.set_Title(String value)</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AuthorGet">
+            <summary>Sets the shim of Video.get_Author()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.AuthorSetString">
+            <summary>Sets the shim of Video.set_Author(String value)</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.Constructor">
+            <summary>Sets the shim of Video.Video()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.PublishDateGet">
+            <summary>Sets the shim of Video.get_PublishDate()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.PublishDateSetString">
+            <summary>Sets the shim of Video.set_PublishDate(String value)</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.TagsGet">
+            <summary>Sets the shim of Video.get_Tags()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.TagsSetStringArray">
+            <summary>Sets the shim of Video.set_Tags(String[] value)</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.TitleGet">
+            <summary>Sets the shim of Video.get_Title()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideo.TitleSetString">
+            <summary>Sets the shim of Video.set_Title(String value)</summary>
+        </member>
+        <member name="T:VideoClient.Fakes.ShimVideoReader">
+            <summary>Shim type of VideoClient.VideoReader</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideoReader.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideoReader.#ctor(VideoClient.VideoReader)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:VideoClient.Fakes.ShimVideoReader.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.AllInstances.GetUpcomingVideos">
+            <summary>Sets the shim of VideoReader.GetUpcomingVideos()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.AllInstances.GetVideos">
+            <summary>Sets the shim of VideoReader.GetVideos()</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideoReader.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideoReader.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.ConstructorIHttpClient">
+            <summary>Sets the shim of VideoReader.VideoReader(IHttpClient httpClient)</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.GetUpcomingVideos">
+            <summary>Sets the shim of VideoReader.GetUpcomingVideos()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.GetVideos">
+            <summary>Sets the shim of VideoReader.GetVideos()</summary>
+        </member>
+        <member name="T:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient">
+            <summary>Shim type of VideoClient.VideoReader+VideoHttpClient</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.#ctor(VideoClient.VideoReader.VideoHttpClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.AllInstances.GetStreamAsyncString">
+            <summary>Sets the shim of VideoHttpClient.GetStreamAsync(String url)</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.Bind(VideoClient.IHttpClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.Constructor">
+            <summary>Sets the shim of VideoHttpClient.VideoHttpClient()</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.ShimVideoReader.ShimVideoHttpClient.GetStreamAsyncString">
+            <summary>Sets the shim of VideoHttpClient.GetStreamAsync(String url)</summary>
+        </member>
+        <member name="T:VideoClient.Fakes.StubIHttpClient">
+            <summary>Stub type of VideoClient.IHttpClient</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.StubIHttpClient.#ctor">
+            <summary>Initializes a new instance of type StubIHttpClient</summary>
+        </member>
+        <member name="F:VideoClient.Fakes.StubIHttpClient.GetStreamAsyncString">
+            <summary>Sets the stub of IHttpClient.GetStreamAsync(String url)</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.StubIHttpClient.VideoClient#IHttpClient#GetStreamAsync(System.String)">
+            <summary>Sets the stub of IHttpClient.GetStreamAsync(String url)</summary>
+        </member>
+        <member name="T:VideoClient.Fakes.StubVideo">
+            <summary>Stub type of VideoClient.Video</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.StubVideo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.StubVideo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.StubVideo.InitializeStub">
+            <summary>Initializes a new instance of type StubVideo</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.StubVideo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.StubVideo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:VideoClient.Fakes.StubVideoReader">
+            <summary>Stub type of VideoClient.VideoReader</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.StubVideoReader.#ctor(VideoClient.IHttpClient)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.StubVideoReader.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:VideoClient.Fakes.StubVideoReader.InitializeStub">
+            <summary>Initializes a new instance of type StubVideoReader</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.StubVideoReader.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:VideoClient.Fakes.StubVideoReader.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

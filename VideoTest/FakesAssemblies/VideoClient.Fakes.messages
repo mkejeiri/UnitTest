@@ -1,0 +1,5 @@
+D:\UnitTest\Calculator\VideoTest\Fakes\VideoClient.fakes : warning : Cannot generate shim for VideoClient.IHttpClient: type is an interface.
+D:\UnitTest\Calculator\VideoTest\Fakes\VideoClient.fakes : warning : Cannot generate shim for VideoClient.VideoReader+<>c__DisplayClass4_0: type is not supported because of internal limitations.
+D:\UnitTest\Calculator\VideoTest\Fakes\VideoClient.fakes : warning : Cannot generate shim for VideoClient.VideoReader+<GetUpcomingVideos>d__4: type is not supported because of internal limitations.
+D:\UnitTest\Calculator\VideoTest\Fakes\VideoClient.fakes : warning : Cannot generate shim for VideoClient.VideoReader+<GetVideos>d__3: type is not supported because of internal limitations.
+D:\UnitTest\Calculator\VideoTest\Fakes\VideoClient.fakes : warning : Cannot generate shim for VideoClient.VideoReader+VideoHttpClient+<GetStreamAsync>d__0: type is not supported because of internal limitations.
