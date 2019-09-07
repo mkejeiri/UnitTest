@@ -25,7 +25,7 @@ namespace VideoClient
 
         public VideoReader(IHttpClient httpClient)
         {
-            var _httpClient = httpClient;
+            _httpClient = httpClient;
         }
 
         public class VideoHttpClient : IHttpClient
