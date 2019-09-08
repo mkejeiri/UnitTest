@@ -22,7 +22,7 @@ namespace VideoTest
             var videos = await reader.GetVideos();
             if (videos.Length == 0)
             {
-                Assert.Fail();
+                Assert.Fail("No Videos found");
             }
         }
 
@@ -30,7 +30,6 @@ namespace VideoTest
         [DeploymentItem("videos.txt")]
         public async Task test_if_there_is_upcoming_videos()
         {
-            //var realHttpClient = new VideoReader.VideoHttpClient();
             var fakeHttpClient = new VideoClient.Fakes.StubIHttpClient();
             fakeHttpClient.GetStreamAsyncString =
                 async (url) => { return System.IO.File.OpenRead("videos.txt"); };
